@@ -79,6 +79,19 @@ margin: 0 auto;
 	left: 210px;
 	position: relative;
 }
+#promo{
+	text-align: center;
+	color: #FFFFFF;
+}
+#regresivo{
+ font-size: 40px;
+	width:80%;
+  	background-color: #FFFFFF;
+  	margin: 1em;
+	border-radius: 15px;
+	margin: 0 AUTO;
+}
+
 
 
 
