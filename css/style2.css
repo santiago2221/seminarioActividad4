@@ -1,0 +1,272 @@
+<!---factura --
+#fondo1{
+	background: #1CADD8;
+}
+#fondo{
+	background: #1CADD8;
+}
+#imagen{
+	position: relative;
+	left: 230px;
+	width: 100px;
+	height: 100px;
+	border-image: 2px;
+}
+#titulo{
+	font-size: 30px;
+	position: relative;
+	left: 20px;
+	-webkit-text-fill-color: red;
+	-webkit-text-stroke: 1px black;
+}
+#tit{
+	width: 70%;
+  background-color: #FFFFFF;
+  margin: 1em;
+}
+#registros{
+	width:70%;
+  background-color: #FFFFFF;
+  margin: 1em;
+}
+#productos{
+	width:70%;
+  background-color: #FFFFFF;
+  margin: 2em;
+}
+#metpagos{
+	width:70%;
+  background-color: #FFFFFF;
+  margin: 1em;
+}
+#final{
+	width:70%;
+  background-color: #FFFFFF;
+  margin: 1em;
+}
+
+#nombrev{
+	width: 225px;
+	position: relative;
+	right: 17px;
+}
+#nomv{
+	position: relative;
+	right: 32px;
+}
+#nombrec{
+	width: 225px;
+	position: relative;
+	left: 35px;
+}
+#nomc{
+	position: relative;
+	left: 20px;
+}
+#direccionv{
+	width: 225px;
+	position: relative;
+	right: 17px;
+}
+#dirv{
+	position: relative;
+	right: 21px;
+}
+#direccionc{
+	width: 225px;
+	position: relative;
+	left: 25px;
+}
+#dirc{
+	position: relative;
+	left: 20px;
+}
+#telefonov{
+	width: 225px;
+	position: relative;
+	right: 18px;
+}
+#telv{
+	position: relative;
+	right: 30px;
+}
+#telefonoc{
+	width: 225px;
+	position: relative;
+	left: 32px;
+}
+#telc{
+	position: relative;
+	left: 20px;
+}
+
+#correov{
+	width: 225px;
+	position: relative;
+	right: 19px;
+}
+#corrv{
+	position: relative;
+	right: 42px;
+}
+#correoc{
+	width: 225px;
+	position: relative;
+	left: 45px;
+}
+#corrc{
+	position: relative;
+	left: 20px;
+}
+#cedv{
+	width: 225px;
+	position: relative;
+	right: 60px;
+}
+#cedvv{
+	width: 225px;
+	position: relative;
+	right: 24px;
+}
+#cedc{
+	width: 225px;
+	position: relative;
+	left: -65px;
+}
+#cedcc{
+	width: 225px;
+	position: relative;
+	left: -20px;
+}
+#ce{
+	position: relative;
+	right: 65px;
+}
+#documento{
+	width: 232px;
+	position: relative;
+	right: 26px;
+}
+#cc{
+	position: relative;
+	left: 15px;
+}
+#documento2{
+	width: 232px;
+	position: relative;
+	left: 65px;
+}
+
+
+#subt{
+	color: darkred;
+}
+#imp{
+	color: darkred;
+}
+#tot{
+	color: darkred;
+}
+#forma{
+	position: relative;
+	right: 375px;
+}
+#cont{
+	position: relative;
+	right: 350px;
+}
+#Contado{
+	position: relative;
+	right: 350px;
+}
+#cred{
+	position: relative;
+	right: 325px;
+}
+#credito{
+	position: relative;
+	right: 325px;
+}
+
+.termi{
+	width:500px;height:100px;border: 2px solid #A71212;
+	position: relative;
+	right: 175px;
+}
+#Terminos{
+	position: relative;
+	right: 350px;
+}
+#met{
+	position: relative;
+	right: 370px;
+}
+#efe{
+	position: relative;
+	right: 188px;
+}
+
+#Efectivo{
+	position: relative;
+	right: 183px;
+}
+#tar{
+	position: relative;
+	right: 170px;
+}
+
+#Tarjetad{
+	position: relative;
+	right: 165px;
+}
+#tarc{
+	position: relative;
+	right: 157px;
+}
+
+#Tarjetac{
+	position: relative;
+	right: 152px;
+}
+#pag{
+	position: relative;
+	right: 139px;
+}
+
+#Pagosm{
+	position: relative;
+	right: 134px;
+}
+#fird{
+	position: relative;
+	right: 160px;
+}
+
+#firmad{
+	position: relative;
+	right: 154px;
+}
+#firc{
+	position: relative;
+	right: 100px;
+}
+
+#firmac{
+	position: relative;
+	right: 94px;
+}
+#imprimir{
+	position: relative;
+	right: 0px;
+}
+#guardar{
+	position: relative;
+	left: 20px;
+}
+#resete{
+	position: relative;
+	left: 40px;
+}
+.productocc{
+	color: #989333;
+}

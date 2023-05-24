@@ -1,0 +1,156 @@
+body{
+	min-height: 100vh;
+	background-image: linear-gradient(-45deg, #F7B7DE 50%, #9EE4FC 50%);
+	font-family: 'raleway', sans-serif;
+}
+#Bienvenida{
+	text-align: justify;
+}
+#principal{
+	text-align: justify;
+}
+#quines{
+	text-align: justify;
+	background-image: initial;
+}
+/*---------------------------*/
+/* Estilos Carrusel */
+/*---------------------------*/
+.carousel {
+	min-height: 500px;
+}
+
+.carousel .carousel-item{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	user-select: none;
+	width: 500px;
+	height: 500px;
+
+}
+.carousel .carousel-item img{
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: -1;
+	border-radius: 15px;
+}
+#fondo{
+	background: #D1AEFA;
+}
+#datos{
+	width: 47%;
+  background-color: #A33EFC;
+  margin: 1em;
+  border-radius: 1em;
+}
+#titulo{
+	font-size: 60px; 
+	font-style: italic;
+}
+#nomc{
+	position: relative;
+	right: 10px;
+}
+#ed{
+	position: relative;
+	right: 20px;
+}
+#dir{
+	position: relative;
+	right: 80px;
+}
+#nombre{
+	position: relative;
+	right: 5px;
+}
+#edad{
+	position: relative;
+	right: 15px;
+}
+#direccion{
+	position: relative;
+	right: 79px;
+}
+#referencias{
+	width: 47%;
+  background-color: #A33EFC;
+  margin: 1em;
+  border-radius: 1em;
+}
+#situacion_personal{
+	width: 47%;
+  background-color: #A33EFC;
+  margin: 1em;
+  border-radius: 1em;
+}
+#personas{
+	position: relative;
+	right: 40px;
+}
+#perso{
+	position: relative;
+	right: 30px;
+}
+#bebe{
+	position: relative;
+	right: 20px;
+}
+#nc{
+	position: relative;
+	right: 120px;
+}
+#personaV{
+	position: relative;
+	right: 140px;
+}
+.nc{
+	color: #D09DFD;
+}
+#hogar{
+		position: relative;
+	right: 20px;
+}
+#domicilio{
+	width: 47%;
+  background-color: #A33EFC;
+  margin: 1em;
+  border-radius: 1em;
+}
+#casa{
+	position: relative;
+	right: 30px;
+}
+#s{
+	position: relative;
+	right: 30px;
+}
+#apart{
+	position: relative;
+	right: 30px;
+}
+#fin{
+	position: relative;
+	right: 30px;
+}
+#pro{
+	position: relative;
+	right: 30px;
+}
+#arre{
+	position: relative;
+	right: 20px;
+}
+#nd{
+	position: relative;
+	right: 60px;
+}
+#dueño{
+	position: relative;
+	right: 60px;
+}

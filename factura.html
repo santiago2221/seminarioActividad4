@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge" />
+    <title>PAGINA DE ELECTRODOMESTICOS</title>
+    <!-- MDB icon -->
+    <link rel="icon" href="img/mdb-favicon.ico" type="image/x-icon" />
+    <!-- Font Awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+    />
+    <!-- Google Fonts Roboto -->
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap"
+    />
+    <!-- MDB -->
+    <link rel="stylesheet" href="css/mdb.min.css" />
+  </head>
+  <body id="fondo">
+   <div>
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <!-- Container wrapper -->
+  <div class="container-fluid">
+    <!-- Toggle button -->
+    <button
+      class="navbar-toggler"
+      type="button"
+      data-mdb-toggle="collapse"
+      data-mdb-target="#navbarLeftAlignExample"
+      aria-controls="navbarLeftAlignExample"
+      aria-expanded="false"
+      aria-label="Toggle navigation"
+    >
+      <i class="fas fa-bars"></i>
+    </button>
+
+    <!-- Collapsible wrapper -->
+    <div class="collapse navbar-collapse" id="navbarLeftAlignExample">
+      <!-- Left links -->
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="Actividad3.html">ELECTROXD</a>
+        </li>
+
+       
+        <!-- Navbar dropdown -->
+        <li class="nav-item dropdown">
+          <a
+            class="nav-link dropdown-toggle"
+            href="#"
+            id="navbarDropdown"
+            role="button"
+            data-mdb-toggle="dropdown"
+            aria-expanded="false"
+          >
+            CATEGORIAS
+          </a>
+          <!-- Dropdown menu -->
+          <ul class="dropdown-menu" aria-current="navbarDropdown">
+            <li>
+              <a class="dropdown-item" href="hogar.html">HOGAR</a>
+            </li>
+            <li>
+              <a class="dropdown-item" href="tecnologia.html">TECNOLOGIA</a>
+            </li>
+            <li>
+              <a class="dropdown-item" href="ferreteria.html">FERRETERIA HOGAR</a>
+            </li>
+            
+          </ul>
+
+        </li>
+         <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="completo.html">CATALOGO COMPLETO</a>
+        </li>  
+ 
+        </li>
+         <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="cuenta.html">CUENTA</a>
+        </li>  
+     
+
+     
+        </li>
+         <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="factura.html">FACTURA</a>
+        </li>  
+
+         <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="pqr.html">PQR</a>
+        </li>
+     
+
+      </ul>
+
+    
+
+       <form class="d-flex input-group w-auto">
+        <input
+          type="search"
+          class="form-control"
+          placeholder="¿Qué estás buscando?"
+          aria-label="Search"
+        />
+        <button
+          class="btn btn-outline-primary"
+          type="button"
+          data-mdb-ripple-color="dark"
+        >
+          Buscar
+        </button>
+      </form>
+      
+    
+
+    </div>
+    <!-- Collapsible wrapper -->
+  </div>
+  <!-- Container wrapper -->
+</nav>
+
+   </div id="fondo1" >
+    <!-- primera parte -->
+    <div class="row">
+
+    <div>
+
+   <center><form>
+  <div id="tit"><p id="titulo">FORMULARIO DE VENTA DE ELECTRODOMÉSTICOS XD <img id="imagen" src="img\factura1.jpg"></p> </div>
+  <br>
+  <div id="registros">
+  <label for="fecha_fac">Fecha de venta :</label> <input type="date" id="fecha_fac" >
+  <br> <br>
+  <label id="nomv" for="nombrev">Nombre del Vendedor : </label> <input type="text" id="nombrev" placeholder="pepito">  <label id="nomc" for="nombrec">Nombre del Comprador : </label> <input type="text" id="nombrec" placeholder="pepito">
+  <br>
+  <label id="dirv" for="direccionv">Dirección del Vendedor : </label> <input type="text" id="direccionv" placeholder="cr2 - casa B1">  <label id="dirc" for="direccionc">Dirección del Comprador : </label> <input type="text" id="direccionc" placeholder="cr2 - casa B1">
+  <br>
+  <label id="telv" for="telefonov">Teléfono del Vendedor : </label> <input type="text" id="telefonov" placeholder="128827546">  <label id="telc" for="telefonoc">Teléfono del Comprador : </label> <input type="text" id="telefonoc" placeholder="128827546">
+  <br>
+  <label id="corrv" for="correov">Correo del Vendedor : </label> <input type="email" id="correov" placeholder="electro@xmail.com" > <label id="corrc" for="correoc">Correo del Comprador : </label> <input type="email" id="correoc" placeholder="electro@xmail.com" > <br>
+  <label id="ce" for="documento"> Tipo de Documento</label> 
+    <select id="documento">
+      <option disabled selected>Escoja una opción</option>
+      <option>CC</option>
+      <option>TI</option>
+      <option>CE</option>
+    </select> <label id="cc" for="documento2"> Tipo de Documento</label> 
+    <select id="documento2">
+      <option disabled selected>Escoja una opción</option>
+      <option>CC</option>
+      <option>TI</option>
+      <option>CE</option>
+    </select><br>
+  <label id="cedv" for="correov">Número : </label> <input type="email" id="cedvv"  > <label id="cedc" for="correoc">Número : </label> <input type="email" id="cedcc" >
+  </div>
+  <br>
+  <br>
+  <div id="productos">
+  <table BORDER WIDTH="55%" HEIGHT="30%" BORDER CELLPADDING=0 CELLSPACING=0 ">
+
+    <tr>
+      
+      <th colspan="1">Producto:</th>
+      <th colspan="3">Descripción:</th>
+      <th colspan="1"><strong> Precio Unitario</th>
+    </tr>
+
+    <tr>
+
+      <td colspan="1"><textarea cols="35" rows="2" id="productoc"> </textarea></td>
+      <td colspan="3"><textarea cols="35" rows="2" id="productoc"></textarea></td>
+      <td colspan="1"><textarea cols="35" rows="2" class="productocc" placeholder="$"></textarea></td>
+    
+      
+    </tr>
+      <td colspan="1"><textarea cols="35" rows="2" id="productoc"></textarea></td>
+      <td colspan="3"><textarea cols="35" rows="2" id="productoc"></textarea></td>
+      <td colspan="1"><textarea cols="35" rows="2" class="productocc"placeholder="$"></textarea></td>
+    
+
+    <tr>
+      <td colspan="1"><textarea cols="35" rows="2" id="productoc"></textarea></td>
+      <td colspan="3"><textarea cols="35" rows="2" id="productoc"></textarea></td>
+      <td colspan="1"><textarea cols="35" rows="2" class="productocc"placeholder="$"></textarea></td>
+    
+    </tr>
+
+    <tr>
+      <td colspan="1"><textarea cols="35" rows="2" id="productoc"></textarea></td>
+      <td colspan="3"><textarea cols="35" rows="2" id="productoc"></textarea></td>
+      <td colspan="1" class="productocc"><textarea cols="35" rows="2" placeholder="$"></textarea></td>
+    
+    </tr>
+    <tr>
+      <td colspan="1"><textarea cols="35" rows="2" id="productoc"></textarea></td>
+      <td colspan="3"><textarea cols="35" rows="2" id="productoc"></textarea></td>
+      <td colspan="1"><textarea cols="35" rows="2" class="productocc"placeholder="$"></textarea></td>
+    </tr>
+
+    <tr>
+    <td colspan="4" id="subt"> SubTotal</td>
+    <td colspan="1"><textarea cols="35" rows="2" class="productocc"placeholder="$"></textarea></td>
+    </tr>
+
+    <tr>
+
+    <td colspan="4" id="imp"> Impuestos % </td>
+    <td colspan="1"><textarea cols="35" rows="2" class="productocc"placeholder="$"></textarea></td>
+    </tr>
+
+    <tr>
+    <td colspan="4" id="tot"> Total</td>
+    <td colspan="1"><textarea cols="35" rows="2" class="productocc"placeholder="$"></textarea></td>
+    </tr>
+
+  </table>  <br>
+  </div>
+  <div id="metpagos">
+    <label id="forma">Forma De pago :</label> <br>
+    <label id="cont" for="Contado">Contado</label> <input type="checkbox"  id="Contado" name="pago" >
+    <label id="cred" for="credito">Credito</label> <input type="checkbox" id="credito" name="pago" >
+    <br>
+    <br>
+  
+    <label id="met" >Método De Pago :</label> <br>
+    <label id="efe" for="Efectivo">Efectivo</label> <input type="radio" id="Efectivo" name="Metodo" value="E">
+    <label id="tar" for="Tarjetad">Tarjeta de Debito</label> <input type="radio" id="Tarjetad" name="Metodo" value="T">
+    <label id="tarc" for="Tarjetac">Tarjeta de credito</label> <input type="radio" id="Tarjetac" name="Metodo" value="TC">
+    <label id="pag" for="Pagosm">Pagos Moviles</label> <input type="radio" id="Pagosm" name="Metodo" value="M">
+    <br>
+    </div>
+  <div id="final">
+    <p id="Terminos"> Términos y Condiciones </p> 
+    <textarea class="termi"  placeholder="Escriba aquí"></textarea><br> <br>
+
+    <label id="fird" for="firmad">Firma Dueño: </label> <input type="text" id="firmad" >   <label id="firc" for="firmac">Firma Cliente: </label> <input type="text" id="firmac" >
+    <br> <br>
+    </div>
+    <input  class="btn btn-primary" type="button" id="imprimir" value="Imprimir"> 
+    <input class="btn btn-primary" type="button" id="guardar" value="Guardar"> 
+    <button class="btn btn-primary" type="reset" id="resete"> Limpiar </button>
+  
+
+</form></CENTER>
+
+
+  </div>
+
+    <!--- final de la primera parte  -->
+
+
+   <!--- -->
+    <script type="text/javascript" src="js/mdb.min.js"></script>
+   
+    <script type="text/javascript"></script>
+       <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/style2.css">
+  </body>
+</html>

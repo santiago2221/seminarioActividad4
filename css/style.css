@@ -1,0 +1,85 @@
+#pan1{
+margin: 0 auto;
+}
+#pan2{
+	margin: 0 auto;
+}
+#fondo{
+	background: #1CADD8;
+}
+#cont1{
+	width:33%;
+  	background-color: #FFFFFF;
+  	margin: 1em;
+	border-radius: 15px;
+	margin: 0 AUTO;
+}
+#cont2{
+	width:33%;
+  	background-color: #FFFFFF;
+  	margin: 1em;
+	border-radius: 15px;
+	margin: 0 AUTO;
+}
+#cont3{
+	width:33%;
+  	background-color: #FFFFFF;
+  	margin: 1em;
+	border-radius: 15px;
+	margin: 0 AUTO;
+}
+#lab1{
+	width: 400px;
+	border-radius: 8px;
+}
+#bt{
+	background-color:#D13131 ;
+	position: relative;
+	left: 265px;
+}
+#bt1{
+	
+	position: relative;
+	left: 200px;
+}
+#bt2{
+	background-color:#D13131 ;
+	position: relative;
+	left: 310px;
+}
+#hg{
+	width:100%;
+  	background-color: #FFFFFF;
+  	margin: 1em;
+	border-radius: 15px;
+	margin: 0 AUTO;
+}
+#fondo3{
+	background: #FFFFFF;
+}
+#pqr{
+	background: #FFFFFF;
+	width:60%;
+	margin: 1em;
+	margin: 0 AUTO;
+}
+#efe{
+	right: 200px;
+	position: relative;
+}
+#efec{
+	right: 190px;
+	position: relative;
+}
+#tarc{
+	left: 200px;
+	position: relative;
+}
+#Tarjet{
+	left: 210px;
+	position: relative;
+}
+
+
+
+
