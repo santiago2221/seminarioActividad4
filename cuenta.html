@@ -131,29 +131,174 @@
     <div>
     <center><h1 id="tituloc" > MI CUENTA </h1></center>
     </div>
+<div class="Container" id="cont1">
 
+  <!-- Pills navs -->
+<ul class="nav nav-pills nav-justified mb-3" id="ex1" role="tablist">
+  <li class="nav-item" role="presentation">
+    <a
+      class="nav-link active"
+      id="tab-login"
+      data-mdb-toggle="pill"
+      href="#pills-login"
+      role="tab"
+      aria-controls="pills-login"
+      aria-selected="true"
+      >Iniciar Sesión</a
+    >
+  </li>
+  <li class="nav-item" role="presentation">
+    <a
+      class="nav-link"
+      id="tab-register"
+      data-mdb-toggle="pill"
+      href="#pills-register"
+      role="tab"
+      aria-controls="pills-register"
+      aria-selected="false"
+      >Registrarse</a
+    >
+  </li>
+</ul>
+<!-- Pills navs -->
 
-   <div id="cont1" class="col-md-5" class="container">
-  <h3> INICIAR SESIÓN:</h3>
-  <p>Si ya eres nuestro cliente, por favor inicia tu sesión aquí.</p>
-  <label id="nomv" for="nombrev">Correo Electrónico: </label><br> <input type="text" id="lab1" placeholder="persona@xmail.com"> <br>
-  <label id="nomv" for="nombrev">Contraseña: </label><br> <input type="text" id="lab1" placeholder="************"><br><br>
-  <button type="button" id="bt" class="btn btn-primary">Iniciar Sesión</button><br>
-  <button type="button" id="bt1" class="btn btn-link"  data-mdb-ripple-color="dark" href= "recuperarcontra.html">¿Olvidaste tu contraseña?</button>
-    </div>
+<!-- Pills content -->
+<div class="tab-content">
+  <div class="tab-pane fade show active" id="pills-login" role="tabpanel" aria-labelledby="tab-login">
+    <form>
+      <div class="text-center mb-3">
+        <p>Iniciar Sesión con:</p>
+        <button type="button" class="btn btn-secondary btn-floating mx-1">
+          <i class="fab fa-facebook-f"></i>
+        </button>
 
-    <div id="cont2" class="col-md-5" class="container">
-  <h3> CREAR CUENTA:</h3>
-  <p>Para crear una cuenta, por favor llena tu información aquí.</p>
-  <label id="nomv" for="nombrev">Correo Electrónico: </label><br> <input type="text" id="lab1" > <br>
-  <label id="nomv" for="nombrev">Nombres: </label><br> <input type="text" id="lab1" ><br>
-  <label id="nomv" for="nombrev">Apellidos: </label><br> <input type="text" id="lab1" > <br>
-  <label id="nomv" for="nombrev">Nueva Contraseña: </label><br> <input type="text" id="lab1" ><br>
-  <label id="nomv" for="nombrev">Confirmar Contraseña: </label><br> <input type="text" id="lab1" > <br><br>
-  <button type="button" id="bt2" class="btn btn-primary" class="btn btn-primary">Enviar</button><br><br>
-  
-    </div>
+        <button type="button" class="btn btn-secondary btn-floating mx-1">
+          <i class="fab fa-google"></i>
+        </button>
 
+        <button type="button" class="btn btn-secondary btn-floating mx-1">
+          <i class="fab fa-twitter"></i>
+        </button>
+
+        <button type="button" class="btn btn-secondary btn-floating mx-1">
+          <i class="fab fa-github"></i>
+        </button>
+      </div>
+
+      <p class="text-center">o:</p>
+
+      <!-- Email input -->
+      <div class="form-outline mb-4">
+        <input type="email" id="loginName" class="form-control" />
+        <label class="form-label" for="loginName">Correo o Usuario</label>
+      </div>
+
+      <!-- Password input -->
+      <div class="form-outline mb-4">
+        <input type="password" id="loginPassword" class="form-control" />
+        <label class="form-label" for="loginPassword">Contraseña</label>
+      </div>
+
+      <!-- 2 column grid layout -->
+      <div class="row mb-4">
+        <div class="col-md-6 d-flex justify-content-center">
+          <!-- Checkbox -->
+          <div class="form-check mb-3 mb-md-0">
+            <input class="form-check-input" type="checkbox" value="" id="loginCheck" checked />
+            <label class="form-check-label" for="loginCheck"> Recordarme </label>
+          </div>
+        </div>
+
+        <div class="col-md-6 d-flex justify-content-center">
+          <!-- Simple link -->
+          <a href="#!">olvidaste tu contraseña?</a>
+        </div>
+      </div>
+
+      <!-- Submit button -->
+      <button type="submit" class="btn btn-primary btn-block mb-4">Iniciar Sesión</button>
+
+      <!-- Register buttons -->
+      <div class="text-center">
+        <p>No eres miembro? <a href="#!">Registrarse</a></p>
+      </div>
+    </form>
+  </div>
+  <div class="tab-pane fade" id="pills-register" role="tabpanel" aria-labelledby="tab-register">
+    <form>
+      <div class="text-center mb-3">
+        <p>Registrarse con:</p>
+        <button type="button" class="btn btn-secondary btn-floating mx-1">
+          <i class="fab fa-facebook-f"></i>
+        </button>
+
+        <button type="button" class="btn btn-secondary btn-floating mx-1">
+          <i class="fab fa-google"></i>
+        </button>
+
+        <button type="button" class="btn btn-secondary btn-floating mx-1">
+          <i class="fab fa-twitter"></i>
+        </button>
+
+        <button type="button" class="btn btn-secondary btn-floating mx-1">
+          <i class="fab fa-github"></i>
+        </button>
+      </div>
+
+      <p class="text-center">o:</p>
+
+      <!-- Name input -->
+      <div class="form-outline mb-4">
+        <input type="text" id="registerName" class="form-control" />
+        <label class="form-label" for="registerName">Nombre</label>
+      </div>
+
+      <!-- Username input -->
+      <div class="form-outline mb-4">
+        <input type="text" id="registerUsername" class="form-control" />
+        <label class="form-label" for="registerUsername">Usuario</label>
+      </div>
+
+      <!-- Email input -->
+      <div class="form-outline mb-4">
+        <input type="email" id="registerEmail" class="form-control" />
+        <label class="form-label" for="registerEmail">Correo</label>
+      </div>
+
+      <!-- Password input -->
+      <div class="form-outline mb-4">
+        <input type="password" id="registerPassword" class="form-control" />
+        <label class="form-label" for="registerPassword">Contraseña</label>
+      </div>
+
+      <!-- Repeat Password input -->
+      <div class="form-outline mb-4">
+        <input type="password" id="registerRepeatPassword" class="form-control" />
+        <label class="form-label" for="registerRepeatPassword">Repita la Contraseña</label>
+      </div>
+
+      <!-- Checkbox -->
+      <div class="form-check d-flex justify-content-center mb-4">
+        <input
+          class="form-check-input me-2"
+          type="checkbox"
+          value=""
+          id="registerCheck"
+          checked
+          aria-describedby="registerCheckHelpText"
+        />
+        <label class="form-check-label" for="registerCheck">
+          he leído y acepto los términos
+        </label>
+      </div>
+
+      <!-- Submit button -->
+      <button type="submit" class="btn btn-primary btn-block mb-3">Iniciar Sesión</button>
+    </form>
+  </div>
+</div>
+<!-- Pills content -->
+</div>
   </div>
 
     <!--- final de la primera parte  -->
